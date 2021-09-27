@@ -6,7 +6,7 @@ public class MemberService { //클
     private MemberRepository memberRepository; //서버
 
 
-    public MemberService(MemberRepository memberRepository) {
+    public MemberService(MemberRepository memberRepository) {//의존성 주입
         this.memberRepository = memberRepository;
     }
 
